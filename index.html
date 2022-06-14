@@ -511,8 +511,8 @@ sistema de monitoreo
 																<!-- forms alerts end -->
 																	
 																	<input type="text" name="name" placeholder="Nombre" class="mb-6 form-control border border-dark-3" required="required" id="contacto">
-																	<input type="email" name="email" placeholder="Correo Electrónico" class="mb-6 form-control border border-dark-3" required="required">
-																	<textarea name="message" placeholder="Mensaje" class="mb-6 form-control border border-dark-3" rows="5" required="required"></textarea>
+																	<input type="email" name="email" placeholder="Correo Electrónico" class="mb-6 form-control border border-dark-3" required="required" id="email">
+																	<textarea name="message" placeholder="Mensaje" class="mb-6 form-control border border-dark-3" rows="5" required="required" id="message"></textarea>
 																	<label class="form-check mb-6">
 																	</label>
 																	<input type="submit" id="button" class="btn w-100 btn-outline-bg-1">
@@ -694,6 +694,10 @@ Twitter
 
         
 const btn = document.getElementById('button');
+const name = document.getElementById('contacto');
+const email = document.getElementById('email')
+const message = document.getElementById('message')
+
 
 document.getElementById('contact-form')
  .addEventListener('submit', function(event) {
