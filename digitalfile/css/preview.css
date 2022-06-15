@@ -504,3 +504,17 @@ body.inEditor[sf-scale="0.75"] .sf-block-holder .sf-block [sf-type=section] {
 [sf-scale="0.25"] .sf-centered .sf-block-name {
     margin-top: -60px
 }
+
+
+
+
+@media (max-width:600px) {
+
+    .imagen_inicio {
+
+        width: 200px;
+        height: 200px;
+
+    }
+    
+}
