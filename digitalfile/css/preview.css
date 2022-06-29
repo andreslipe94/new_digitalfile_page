@@ -518,3 +518,14 @@ body.inEditor[sf-scale="0.75"] .sf-block-holder .sf-block [sf-type=section] {
     }
     
 }
+
+@media (max-width:600px) {
+
+    #centro_comercial {
+
+        
+        height: 250px;
+
+    }
+    
+}
